@@ -1,0 +1,57 @@
+{
+  "category": "Clothing",
+  "reference_price": 174.28774928774928,
+  "price_points": [
+    25,
+    30,
+    50,
+    300,
+    500
+  ],
+  "n_days": 362,
+  "weekday_trend": [
+    1.0414,
+    0.9396,
+    1.0805,
+    1.0101,
+    1.0336,
+    0.877,
+    1.0179
+  ],
+  "segments": {
+    "Young": {
+      "share": 0.24216524216524216,
+      "reference_price": 197.0,
+      "base_demand": 48.8228794280143,
+      "price_sensitivity": 2.0,
+      "mean_quantity": 2.5176470588235293,
+      "female_ratio": 0.4470588235294118,
+      "n_transactions": 85
+    },
+    "Adult": {
+      "share": 0.4188034188034188,
+      "reference_price": 166.12244897959184,
+      "base_demand": 50.39350546848574,
+      "price_sensitivity": 1.1,
+      "mean_quantity": 2.598639455782313,
+      "female_ratio": 0.5102040816326531,
+      "n_transactions": 147
+    },
+    "Senior": {
+      "share": 0.33903133903133903,
+      "reference_price": 168.15126050420167,
+      "base_demand": 48.562143089279914,
+      "price_sensitivity": 0.65,
+      "mean_quantity": 2.504201680672269,
+      "female_ratio": 0.5126050420168067,
+      "n_transactions": 119
+    }
+  },
+  "source": "kaggle",
+  "cleaning_report": {
+    "rows_raw": 1000,
+    "rows_with_missing": 0,
+    "inconsistent_totals_fixed": 0,
+    "rows_clean": 1000
+  }
+}

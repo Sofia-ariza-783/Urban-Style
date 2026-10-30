@@ -1,0 +1,60 @@
+{
+  "epochs": 10,
+  "batch_size": 64,
+  "dataset_limit": null,
+  "seed": 42,
+  "device": "cpu",
+  "latent_dim": 64,
+  "history": [
+    {
+      "epoch": 1,
+      "generator_loss": 1.3640899658203125,
+      "discriminator_loss": 0.6651175022125244
+    },
+    {
+      "epoch": 2,
+      "generator_loss": 1.8356642723083496,
+      "discriminator_loss": 0.9000943303108215
+    },
+    {
+      "epoch": 3,
+      "generator_loss": 1.5503993034362793,
+      "discriminator_loss": 0.7130848169326782
+    },
+    {
+      "epoch": 4,
+      "generator_loss": 1.5836117267608643,
+      "discriminator_loss": 0.975603461265564
+    },
+    {
+      "epoch": 5,
+      "generator_loss": 1.3756110668182373,
+      "discriminator_loss": 0.7381266355514526
+    },
+    {
+      "epoch": 6,
+      "generator_loss": 0.9131626486778259,
+      "discriminator_loss": 0.9932492971420288
+    },
+    {
+      "epoch": 7,
+      "generator_loss": 1.6844708919525146,
+      "discriminator_loss": 1.0494437217712402
+    },
+    {
+      "epoch": 8,
+      "generator_loss": 1.4143065214157104,
+      "discriminator_loss": 1.0242732763290405
+    },
+    {
+      "epoch": 9,
+      "generator_loss": 1.675345540046692,
+      "discriminator_loss": 1.2507643699645996
+    },
+    {
+      "epoch": 10,
+      "generator_loss": 2.2101151943206787,
+      "discriminator_loss": 0.9963011741638184
+    }
+  ]
+}

@@ -205,6 +205,11 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Python caches and downloaded ML datasets
+__pycache__/
+.pytest_cache/
+data/fashion_mnist/
+
 # Ruff stuff:
 .ruff_cache/
 

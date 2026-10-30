@@ -1,0 +1,33 @@
+{
+  "source": "kaggle",
+  "n_transactions": 1000,
+  "category_share": {
+    "Beauty": 0.307,
+    "Clothing": 0.351,
+    "Electronics": 0.342
+  },
+  "gender_share_by_category": {
+    "Beauty": {
+      "Female": 0.5407,
+      "Male": 0.4593
+    },
+    "Clothing": {
+      "Female": 0.4957,
+      "Male": 0.5043
+    },
+    "Electronics": {
+      "Female": 0.4971,
+      "Male": 0.5029
+    }
+  },
+  "quantity_distribution": {
+    "1": 0.253,
+    "2": 0.243,
+    "3": 0.241,
+    "4": 0.263
+  },
+  "cleaning_report": {
+    "rows_raw": 1000,
+    "rows_clean": 1000
+  }
+}

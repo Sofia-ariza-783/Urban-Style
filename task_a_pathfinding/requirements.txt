@@ -1,0 +1,6 @@
+# Tested with Python 3.14 on Windows 11
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.9
+pygame-ce>=2.5      # drop-in replacement for pygame (same `import pygame`), has Python 3.14 wheels
+pytest>=8.0

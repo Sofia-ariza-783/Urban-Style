@@ -1,0 +1,708 @@
+{
+  "customers": 60,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "metrics": {
+    "Compact 8x6": {
+      "BFS": {
+        "avg_nodes_per_search": {
+          "mean": 14.528357679369137,
+          "std": 0.31912884282080073
+        },
+        "total_nodes": {
+          "mean": 3984.3333333333335,
+          "std": 128.1652579029642
+        },
+        "avg_path_length": {
+          "mean": 3.706477693515476,
+          "std": 0.08514707850978914
+        },
+        "avg_trip_ticks": {
+          "mean": 41.67777777777778,
+          "std": 2.101608731248342
+        },
+        "ticks_to_empty": {
+          "mean": 283.0,
+          "std": 4.58257569495584
+        },
+        "peak_heat": {
+          "mean": 391.0,
+          "std": 35.17101079013795
+        },
+        "mean_heat": {
+          "mean": 73.54901960784314,
+          "std": 3.7087212904382465
+        },
+        "hotspot_share": {
+          "mean": 0.08823529411764706,
+          "std": 0.0
+        }
+      },
+      "A*": {
+        "avg_nodes_per_search": {
+          "mean": 4.83185660869203,
+          "std": 0.039313503489142775
+        },
+        "total_nodes": {
+          "mean": 1325.3333333333333,
+          "std": 44.01514890731751
+        },
+        "avg_path_length": {
+          "mean": 3.706477693515476,
+          "std": 0.08514707850978914
+        },
+        "avg_trip_ticks": {
+          "mean": 41.67777777777778,
+          "std": 2.101608731248342
+        },
+        "ticks_to_empty": {
+          "mean": 283.0,
+          "std": 4.58257569495584
+        },
+        "peak_heat": {
+          "mean": 391.0,
+          "std": 35.17101079013795
+        },
+        "mean_heat": {
+          "mean": 73.54901960784314,
+          "std": 3.7087212904382465
+        },
+        "hotspot_share": {
+          "mean": 0.08823529411764706,
+          "std": 0.0
+        }
+      },
+      "Congestion-aware": {
+        "avg_nodes_per_search": {
+          "mean": 14.218666572776641,
+          "std": 0.42747379445666217
+        },
+        "total_nodes": {
+          "mean": 3787.6666666666665,
+          "std": 157.90609023509302
+        },
+        "avg_path_length": {
+          "mean": 3.876997887562634,
+          "std": 0.036894385708305076
+        },
+        "avg_trip_ticks": {
+          "mean": 40.61111111111111,
+          "std": 0.7276929551926649
+        },
+        "ticks_to_empty": {
+          "mean": 293.6666666666667,
+          "std": 4.932882862316248
+        },
+        "peak_heat": {
+          "mean": 299.6666666666667,
+          "std": 32.00520790954706
+        },
+        "mean_heat": {
+          "mean": 71.66666666666667,
+          "std": 1.2841640385752897
+        },
+        "hotspot_share": {
+          "mean": 0.1176470588235294,
+          "std": 1.6996749443881478e-17
+        }
+      }
+    },
+    "Grid aisles": {
+      "BFS": {
+        "avg_nodes_per_search": {
+          "mean": 28.626305201192206,
+          "std": 0.6489217615776011
+        },
+        "total_nodes": {
+          "mean": 7795.333333333333,
+          "std": 193.0552597919397
+        },
+        "avg_path_length": {
+          "mean": 5.596889526792445,
+          "std": 0.1566797121571517
+        },
+        "avg_trip_ticks": {
+          "mean": 49.56666666666666,
+          "std": 0.6370504951205452
+        },
+        "ticks_to_empty": {
+          "mean": 287.0,
+          "std": 10.816653826391969
+        },
+        "peak_heat": {
+          "mean": 488.0,
+          "std": 56.04462507680822
+        },
+        "mean_heat": {
+          "mean": 35.404761904761905,
+          "std": 0.45503606794324913
+        },
+        "hotspot_share": {
+          "mean": 0.059523809523809514,
+          "std": 8.498374721940739e-18
+        }
+      },
+      "A*": {
+        "avg_nodes_per_search": {
+          "mean": 7.519203934663092,
+          "std": 0.3830846775740628
+        },
+        "total_nodes": {
+          "mean": 2047.3333333333333,
+          "std": 98.20556671255113
+        },
+        "avg_path_length": {
+          "mean": 5.596889526792445,
+          "std": 0.1566797121571517
+        },
+        "avg_trip_ticks": {
+          "mean": 49.56666666666666,
+          "std": 0.6370504951205452
+        },
+        "ticks_to_empty": {
+          "mean": 287.0,
+          "std": 10.816653826391969
+        },
+        "peak_heat": {
+          "mean": 488.0,
+          "std": 56.04462507680822
+        },
+        "mean_heat": {
+          "mean": 35.404761904761905,
+          "std": 0.45503606794324913
+        },
+        "hotspot_share": {
+          "mean": 0.059523809523809514,
+          "std": 8.498374721940739e-18
+        }
+      },
+      "Congestion-aware": {
+        "avg_nodes_per_search": {
+          "mean": 32.61088179051222,
+          "std": 0.5195082511270558
+        },
+        "total_nodes": {
+          "mean": 8911.666666666666,
+          "std": 309.51628928593294
+        },
+        "avg_path_length": {
+          "mean": 5.964744532994306,
+          "std": 0.06244625297848228
+        },
+        "avg_trip_ticks": {
+          "mean": 52.18888888888889,
+          "std": 1.8574424870214952
+        },
+        "ticks_to_empty": {
+          "mean": 291.0,
+          "std": 4.0
+        },
+        "peak_heat": {
+          "mean": 223.33333333333334,
+          "std": 3.5118845842842465
+        },
+        "mean_heat": {
+          "mean": 37.27777777777778,
+          "std": 1.3267446335867812
+        },
+        "hotspot_share": {
+          "mean": 0.09523809523809523,
+          "std": 0.0
+        }
+      }
+    },
+    "Racetrack loop": {
+      "BFS": {
+        "avg_nodes_per_search": {
+          "mean": 23.235626512352855,
+          "std": 0.7036666186809204
+        },
+        "total_nodes": {
+          "mean": 6023.333333333333,
+          "std": 185.62417227649348
+        },
+        "avg_path_length": {
+          "mean": 7.297384185704732,
+          "std": 0.23606842527835095
+        },
+        "avg_trip_ticks": {
+          "mean": 54.916666666666664,
+          "std": 2.1178474396844043
+        },
+        "ticks_to_empty": {
+          "mean": 293.3333333333333,
+          "std": 3.0550504633038935
+        },
+        "peak_heat": {
+          "mean": 347.3333333333333,
+          "std": 29.19474838619667
+        },
+        "mean_heat": {
+          "mean": 55.847457627118644,
+          "std": 2.153743159001086
+        },
+        "hotspot_share": {
+          "mean": 0.0847457627118644,
+          "std": 0.0
+        }
+      },
+      "A*": {
+        "avg_nodes_per_search": {
+          "mean": 9.038926921961876,
+          "std": 0.2316045578454679
+        },
+        "total_nodes": {
+          "mean": 2344.0,
+          "std": 98.89893831583835
+        },
+        "avg_path_length": {
+          "mean": 7.297384185704732,
+          "std": 0.23606842527835095
+        },
+        "avg_trip_ticks": {
+          "mean": 54.916666666666664,
+          "std": 2.1178474396844043
+        },
+        "ticks_to_empty": {
+          "mean": 293.3333333333333,
+          "std": 3.0550504633038935
+        },
+        "peak_heat": {
+          "mean": 347.3333333333333,
+          "std": 29.19474838619667
+        },
+        "mean_heat": {
+          "mean": 55.847457627118644,
+          "std": 2.153743159001086
+        },
+        "hotspot_share": {
+          "mean": 0.0847457627118644,
+          "std": 0.0
+        }
+      },
+      "Congestion-aware": {
+        "avg_nodes_per_search": {
+          "mean": 25.992928418785553,
+          "std": 0.7462799121012873
+        },
+        "total_nodes": {
+          "mean": 6767.666666666667,
+          "std": 256.3597732354539
+        },
+        "avg_path_length": {
+          "mean": 7.6894182151358565,
+          "std": 0.1999883427659225
+        },
+        "avg_trip_ticks": {
+          "mean": 56.62222222222223,
+          "std": 1.7427893776399994
+        },
+        "ticks_to_empty": {
+          "mean": 296.0,
+          "std": 8.888194417315589
+        },
+        "peak_heat": {
+          "mean": 300.3333333333333,
+          "std": 55.01211987674474
+        },
+        "mean_heat": {
+          "mean": 57.5819209039548,
+          "std": 1.7723281806508457
+        },
+        "hotspot_share": {
+          "mean": 0.1016949152542373,
+          "std": 0.0
+        }
+      }
+    }
+  },
+  "hotspots_seed_0": {
+    "Compact 8x6": {
+      "BFS": [
+        {
+          "cell": [
+            2,
+            2
+          ],
+          "count": 358,
+          "context": "Accessories & Tech / Men's Wear"
+        },
+        {
+          "cell": [
+            3,
+            5
+          ],
+          "count": 316,
+          "context": "Checkout"
+        },
+        {
+          "cell": [
+            2,
+            5
+          ],
+          "count": 251,
+          "context": "Accessories & Tech / Fitting Rooms"
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "count": 245,
+          "context": "Women's Wear"
+        },
+        {
+          "cell": [
+            0,
+            4
+          ],
+          "count": 239,
+          "context": "Beauty & Cosmetics"
+        }
+      ],
+      "A*": [
+        {
+          "cell": [
+            2,
+            2
+          ],
+          "count": 358,
+          "context": "Accessories & Tech / Men's Wear"
+        },
+        {
+          "cell": [
+            3,
+            5
+          ],
+          "count": 316,
+          "context": "Checkout"
+        },
+        {
+          "cell": [
+            2,
+            5
+          ],
+          "count": 251,
+          "context": "Accessories & Tech / Fitting Rooms"
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "count": 245,
+          "context": "Women's Wear"
+        },
+        {
+          "cell": [
+            0,
+            4
+          ],
+          "count": 239,
+          "context": "Beauty & Cosmetics"
+        }
+      ],
+      "Congestion-aware": [
+        {
+          "cell": [
+            3,
+            5
+          ],
+          "count": 299,
+          "context": "Checkout"
+        },
+        {
+          "cell": [
+            1,
+            5
+          ],
+          "count": 192,
+          "context": "Beauty & Cosmetics"
+        },
+        {
+          "cell": [
+            2,
+            2
+          ],
+          "count": 169,
+          "context": "Accessories & Tech / Men's Wear"
+        },
+        {
+          "cell": [
+            0,
+            4
+          ],
+          "count": 168,
+          "context": "Beauty & Cosmetics"
+        },
+        {
+          "cell": [
+            4,
+            4
+          ],
+          "count": 151,
+          "context": "Checkout"
+        }
+      ]
+    },
+    "Grid aisles": {
+      "BFS": [
+        {
+          "cell": [
+            4,
+            8
+          ],
+          "count": 548,
+          "context": "Accessories & Tech / Beauty & Cosmetics"
+        },
+        {
+          "cell": [
+            7,
+            8
+          ],
+          "count": 325,
+          "context": "Checkout"
+        },
+        {
+          "cell": [
+            2,
+            8
+          ],
+          "count": 293,
+          "context": "Men's Wear / Women's Wear"
+        },
+        {
+          "cell": [
+            5,
+            6
+          ],
+          "count": 189,
+          "context": "Beauty & Cosmetics"
+        },
+        {
+          "cell": [
+            6,
+            6
+          ],
+          "count": 127,
+          "context": "Fitting Rooms"
+        }
+      ],
+      "A*": [
+        {
+          "cell": [
+            4,
+            8
+          ],
+          "count": 548,
+          "context": "Accessories & Tech / Beauty & Cosmetics"
+        },
+        {
+          "cell": [
+            7,
+            8
+          ],
+          "count": 325,
+          "context": "Checkout"
+        },
+        {
+          "cell": [
+            2,
+            8
+          ],
+          "count": 293,
+          "context": "Men's Wear / Women's Wear"
+        },
+        {
+          "cell": [
+            5,
+            6
+          ],
+          "count": 189,
+          "context": "Beauty & Cosmetics"
+        },
+        {
+          "cell": [
+            6,
+            6
+          ],
+          "count": 127,
+          "context": "Fitting Rooms"
+        }
+      ],
+      "Congestion-aware": [
+        {
+          "cell": [
+            4,
+            8
+          ],
+          "count": 227,
+          "context": "Accessories & Tech / Beauty & Cosmetics"
+        },
+        {
+          "cell": [
+            7,
+            8
+          ],
+          "count": 200,
+          "context": "Checkout"
+        },
+        {
+          "cell": [
+            3,
+            9
+          ],
+          "count": 151,
+          "context": "Accessories & Tech / Men's Wear"
+        },
+        {
+          "cell": [
+            5,
+            9
+          ],
+          "count": 149,
+          "context": "Accessories & Tech"
+        },
+        {
+          "cell": [
+            7,
+            9
+          ],
+          "count": 136,
+          "context": "Checkout"
+        }
+      ]
+    },
+    "Racetrack loop": {
+      "BFS": [
+        {
+          "cell": [
+            2,
+            8
+          ],
+          "count": 381,
+          "context": "Accessories & Tech"
+        },
+        {
+          "cell": [
+            8,
+            13
+          ],
+          "count": 376,
+          "context": "Checkout"
+        },
+        {
+          "cell": [
+            3,
+            2
+          ],
+          "count": 236,
+          "context": "Beauty & Cosmetics"
+        },
+        {
+          "cell": [
+            1,
+            8
+          ],
+          "count": 212,
+          "context": "Men's Wear"
+        },
+        {
+          "cell": [
+            2,
+            7
+          ],
+          "count": 162,
+          "context": "Beauty & Cosmetics"
+        }
+      ],
+      "A*": [
+        {
+          "cell": [
+            2,
+            8
+          ],
+          "count": 381,
+          "context": "Accessories & Tech"
+        },
+        {
+          "cell": [
+            8,
+            13
+          ],
+          "count": 376,
+          "context": "Checkout"
+        },
+        {
+          "cell": [
+            3,
+            2
+          ],
+          "count": 236,
+          "context": "Beauty & Cosmetics"
+        },
+        {
+          "cell": [
+            1,
+            8
+          ],
+          "count": 212,
+          "context": "Men's Wear"
+        },
+        {
+          "cell": [
+            2,
+            7
+          ],
+          "count": 162,
+          "context": "Beauty & Cosmetics"
+        }
+      ],
+      "Congestion-aware": [
+        {
+          "cell": [
+            2,
+            8
+          ],
+          "count": 299,
+          "context": "Accessories & Tech"
+        },
+        {
+          "cell": [
+            3,
+            2
+          ],
+          "count": 208,
+          "context": "Beauty & Cosmetics"
+        },
+        {
+          "cell": [
+            8,
+            13
+          ],
+          "count": 188,
+          "context": "Checkout"
+        },
+        {
+          "cell": [
+            7,
+            12
+          ],
+          "count": 175,
+          "context": "Checkout"
+        },
+        {
+          "cell": [
+            2,
+            7
+          ],
+          "count": 129,
+          "context": "Beauty & Cosmetics"
+        }
+      ]
+    }
+  }
+}

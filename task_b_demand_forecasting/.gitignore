@@ -1,0 +1,9 @@
+# Datos y resultados (no se suben al repo)
+data/*.csv
+outputs/*
+!outputs/.gitkeep
+__pycache__/
+.venv/
+venv/
+# Nunca subir la API key
+.env

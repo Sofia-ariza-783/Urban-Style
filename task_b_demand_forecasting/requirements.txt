@@ -1,0 +1,5 @@
+numpy>=1.26
+pandas>=2.1
+torch>=2.2
+pygame>=2.5
+anthropic>=2.3   # opcional: explicación con Claude
